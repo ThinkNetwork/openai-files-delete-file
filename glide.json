@@ -1,9 +1,8 @@
-
 [
   {
     "kind": "column",
-    "name": "OpenAI (Assistants)",
-    "description": "Create, modify and run OpenAI Assistants.",
+    "name": "Delete OpenAI File",
+    "description": "Delete a specific uploaded file from OpenAI's API.",
     "author": "Gavin Horne <gavin@thinknetwork.com.au>",
     "params": [
       {
@@ -12,18 +11,8 @@
         "type": "string"
       },
       {
-        "name": "endpoint",
-        "displayName": "API Endpoint (Required)",
-        "type": "string"
-      },
-      {
-        "name": "body",
-        "displayName": "Body (JSON Schema Required)",
-        "type": "string"
-      },
-      {
-        "name": "json",
-        "displayName": "JSON Schema (Output)",
+        "name": "file_id",
+        "displayName": "File ID (Required)",
         "type": "string"
       }
     ],
